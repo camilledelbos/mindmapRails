@@ -1,0 +1,836 @@
+{
+  "title": "Rails",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "1. je suis admin",
+      "id": 2,
+      "ideas": {
+        "3": {
+          "title": "terminal",
+          "id": 24,
+          "ideas": {
+            "2": {
+              "title": "créer appli",
+              "id": 36,
+              "ideas": {
+                "1": {
+                  "title": "/Projets_web",
+                  "id": 15,
+                  "ideas": {
+                    "1": {
+                      "title": "$ mkdir [directory_name]",
+                      "id": 11,
+                      "ideas": {
+                        "2": {
+                          "title": "$ rvm use [VERSION]",
+                          "id": 16,
+                          "ideas": {
+                            "1": {
+                              "title": "$ rails new [APP]",
+                              "id": 12,
+                              "ideas": {
+                                "2": {
+                                  "title": "password",
+                                  "id": 17,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "cd [APP]",
+                                      "id": 18,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "$ rails server",
+                                          "id": 13,
+                                          "ideas": {
+                                            "1": {
+                                              "title": "0.0.0.0:3000 (Win 127.0.0.1:3000)",
+                                              "id": 14,
+                                              "ideas": {
+                                                "2": {
+                                                  "title": "quitter serveur",
+                                                  "id": 23,
+                                                  "ideas": {}
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "attr": {
+                                            "style": {
+                                              "background": "#E0E0E0"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "$ rails generate controller NOM ACTION1 ACTION2 ACTION3",
+                  "id": 76,
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "créer bdd",
+              "id": 37,
+              "ideas": {
+                "1": {
+                  "title": "$ rails generate scaffold status name:string content:text",
+                  "id": 19,
+                  "ideas": {
+                    "1": {
+                      "title": "$ rake db:migrate",
+                      "id": 21,
+                      "ideas": {
+                        "1": {
+                          "title": "relancer serveur",
+                          "id": 22
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "6": {
+                  "title": "$ rails generate [Product] name:string description:text",
+                  "id": 80,
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "créer repo local",
+              "id": 38,
+              "ideas": {
+                "1": {
+                  "title": "$ git init",
+                  "id": 26,
+                  "ideas": {
+                    "2": {
+                      "title": "$ git add .",
+                      "id": 28,
+                      "ideas": {
+                        "1": {
+                          "title": "$ git commit -m \"Commentaire\"",
+                          "id": 29,
+                          "ideas": {
+                            "1": {
+                              "title": "copicol $ git remote add origin http/git@github.com/camilledelbos/APP.git",
+                              "id": 35,
+                              "ideas": {
+                                "1": {
+                                  "title": "git push origin master",
+                                  "id": 27,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "3.5": {
+              "title": "modifier bdd",
+              "id": 81,
+              "ideas": {
+                "1": {
+                  "title": "$ rails generate migration [CreateProducts name:string] part_number:string",
+                  "id": 79,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "github",
+          "id": 25,
+          "ideas": {
+            "2": {
+              "title": "new repo",
+              "id": 31,
+              "ideas": {
+                "1": {
+                  "title": "repo name",
+                  "id": 33,
+                  "ideas": {
+                    "1": {
+                      "title": "create repo",
+                      "id": 34,
+                      "ideas": {
+                        "1": {
+                          "title": "admin -> collaborateur",
+                          "id": 39
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#E0E0E0"
+        }
+      }
+    },
+    "2": {
+      "title": "info",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "git",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "Aliases .gitconfig dans  $HOME",
+              "id": 7
+            },
+            "2": {
+              "title": "man git -log",
+              "id": 8,
+              "ideas": {
+                "1": {
+                  "title": "\ngit log --oneline --max-count=2\ngit log --oneline --since='5 minutes ago'\ngit log --oneline --until='5 minutes ago'\ngit log --oneline --author=<your name>\ngit log --oneline --all",
+                  "id": 9
+                }
+              }
+            },
+            "3": {
+              "title": "\ngit add a.rb\ngit add b.rb\ngit commit -m \"Changes for a and b\"\ngit add c.rb\ngit commit -m \"Unrelated change to c\"",
+              "id": 10
+            },
+            "4": {
+              "title": "$ git co <hash> (7 n° du commit git hist)",
+              "id": 49
+            },
+            "6": {
+              "title": "annuler un staging ",
+              "id": 53,
+              "ideas": {
+                "1": {
+                  "title": "$ git reset HEAD <file> (suite à $git co <fichier> ; modif du fichier ; $ git add <file>). Une fois stating annulé ressortir par $ git co pour vérifier avec $ git status",
+                  "id": 56
+                }
+              }
+            },
+            "7": {
+              "title": "annuler un commit",
+              "id": 54,
+              "ideas": {
+                "1": {
+                  "title": "$ git revert HEAD (verif avec $ git hist)",
+                  "id": 55
+                }
+              }
+            },
+            "8": {
+              "title": "supprimer un commit",
+              "id": 57,
+              "ideas": {
+                "1": {
+                  "title": "$ git reset --hard <tag ou hash> ($ git hist  pour afficher tag ou hash)",
+                  "id": 58
+                }
+              }
+            },
+            "9": {
+              "title": "supprimer un tag",
+              "id": 59,
+              "ideas": {
+                "1": {
+                  "title": "$ git tag -d <nom du tag>",
+                  "id": 60
+                }
+              }
+            },
+            "10": {
+              "title": "modifier un commit",
+              "id": 61,
+              "ideas": {
+                "1": {
+                  "title": "$ git commit --amend -m \"modification du texte\"",
+                  "id": 62
+                }
+              }
+            },
+            "11": {
+              "title": "déplacer fichier",
+              "id": 63,
+              "ideas": {
+                "1": {
+                  "title": "$ git mv FICHIER1.rb  DOSSIER2 ",
+                  "id": 64,
+                  "attr": {
+                    "attachment": {
+                      "contentType": "text/html",
+                      "content": "supprime FICHIER1 et créé DOCCSSIER/FICHIER1"
+                    },
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "$ mv FICHIER1.rb  DOSSIER2 \n$ git add DOSSIER2/FICHIER1.rb\n$ git rm FICHIER1.rb",
+                  "id": 66
+                }
+              }
+            },
+            "12": {
+              "title": "dossier git",
+              "id": 67,
+              "ideas": {
+                "1": {
+                  "title": "$ ls -C .git",
+                  "id": 68,
+                  "ideas": {
+                    "1": {
+                      "title": "$ ls -C .git/refs",
+                      "id": 69
+                    },
+                    "2": {
+                      "title": "$ ls -C .git/refs/tag",
+                      "id": 70
+                    },
+                    "3": {
+                      "title": "$ ls -C .git/config",
+                      "id": 71
+                    }
+                  }
+                }
+              }
+            },
+            "13": {
+              "title": "créer une branche",
+              "id": 74,
+              "ideas": {
+                "1": {
+                  "title": "$ git checkout -b NOMBRANCHE",
+                  "id": 75
+                }
+              }
+            },
+            "5.5": {
+              "title": "dernier(s) commit",
+              "id": 72,
+              "ideas": {
+                "1": {
+                  "title": "$ git lola",
+                  "id": 50,
+                  "ideas": {},
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "$ git hist --max-count=1    ou $ git hist",
+                  "id": 73
+                }
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "2": {
+          "title": "subl",
+          "id": 104,
+          "ideas": {
+            "1": {
+              "title": "cmd + t",
+              "id": 105,
+              "ideas": {}
+            }
+          }
+        }
+      }
+    },
+    "1.5": {
+      "title": "2. je suis collaborateur",
+      "id": 4,
+      "ideas": {
+        "3": {
+          "title": "je commence",
+          "id": 82,
+          "ideas": {
+            "1": {
+              "title": "github",
+              "id": 41,
+              "ideas": {
+                "1": {
+                  "title": "copie git@github.com:camilledelbos/APPLI.git",
+                  "id": 44
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "terminal",
+              "id": 40,
+              "ideas": {
+                "2": {
+                  "title": "/Projets_web",
+                  "id": 43,
+                  "ideas": {
+                    "1": {
+                      "title": "$ git clone git@github.com:camilledelbos/APPLI.git",
+                      "id": 42,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "cd APP",
+                          "id": 45,
+                          "ideas": {
+                            "1": {
+                              "title": "bundle",
+                              "id": 46,
+                              "attr": {
+                                "attachment": {
+                                  "contentType": "text/html",
+                                  "content": "installe fichier nécessaires à lancer l'appli"
+                                },
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "$ rake db:create:all",
+                                  "id": 47,
+                                  "attr": {
+                                    "attachment": {
+                                      "contentType": "text/html",
+                                      "content": "pour un nouveau projet :<div>on créer ainsi la bdd<div>ici les tables existent déjà (la table statuses)</div></div>"
+                                    },
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "$ rake db:migrate",
+                                      "id": 48
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "j'ai déjà le repo",
+          "id": 83,
+          "ideas": {
+            "1": {
+              "title": "$   git pull origin master",
+              "id": 85
+            }
+          }
+        }
+      },
+      "attr": {
+        "collapsed": true,
+        "style": {
+          "background": "#E0E0E0"
+        }
+      }
+    },
+    "-1": {
+      "title": "gem",
+      "id": 86,
+      "ideas": {
+        "3": {
+          "title": "Devise",
+          "id": 94,
+          "ideas": {
+            "7": {
+              "title": "installation",
+              "id": 109,
+              "ideas": {
+                "1": {
+                  "title": "Gemfile",
+                  "id": 89,
+                  "ideas": {
+                    "1": {
+                      "title": "gem 'devise'",
+                      "id": 90,
+                      "ideas": {}
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "terminal",
+                  "id": 87,
+                  "ideas": {
+                    "2": {
+                      "title": "terminal $  bundle install",
+                      "id": 91,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "$  rails generate devise:install",
+                          "id": 93,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "config.environnement/developpement.rb",
+                  "id": 96,
+                  "ideas": {
+                    "1": {
+                      "title": "config.action_mailer.default_url_options = {:host => 'localhost:3000'}",
+                      "id": 97
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "4": {
+                  "title": "config/routes.rb",
+                  "id": 98,
+                  "ideas": {
+                    "1": {
+                      "title": "root :to => \"home#index\"",
+                      "id": 99,
+                      "ideas": {
+                        "1": {
+                          "title": "aller dans /public et supprimer le fichier 'index.html'",
+                          "id": 100
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "5": {
+                  "title": "app/views/layouts/application.html.rb",
+                  "id": 101,
+                  "ideas": {
+                    "1": {
+                      "title": "<p class=\"notice\"><%= notice %></p> <p class=\"alert\"><%= alert%></p>",
+                      "id": 102
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "6": {
+                  "title": "application.rb",
+                  "id": 103,
+                  "ideas": {
+                    "1": {
+                      "title": "config.assets.initialize_on_precompile = false",
+                      "id": 107
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "8": {
+              "title": "générer un Model",
+              "id": 110,
+              "ideas": {
+                "1": {
+                  "title": "terminal",
+                  "id": 111,
+                  "ideas": {
+                    "1": {
+                      "title": "$ rails generate devise [NOMMODEL ex.user]",
+                      "id": 112,
+                      "ideas": {
+                        "1": {
+                          "title": "$ rake db:migrate",
+                          "id": 113
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "10": {
+              "title": "migration",
+              "id": 118,
+              "ideas": {
+                "1": {
+                  "title": "générer une migration",
+                  "id": 114,
+                  "ideas": {
+                    "1": {
+                      "title": "$ rails generate migration [migration_name]",
+                      "id": 116,
+                      "ideas": {
+                        "2": {
+                          "title": "modifier une table $ rails generate migration [ex. add_user_id_to_status]",
+                          "id": 120,
+                          "ideas": {
+                            "1": {
+                              "title": "db/migrate/20140109...  ",
+                              "id": 117,
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "add_colomn :statuses, user_id, :integer ",
+                                  "id": 121
+                                },
+                                "2": {
+                                  "title": "ass_index :statuses, :user_id",
+                                  "id": 122,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "$ rake db:migrate",
+                                      "id": 125,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "$ rails console",
+                                          "id": 126,
+                                          "ideas": {
+                                            "1": {
+                                              "title": " $ Status.delete_all",
+                                              "id": 127
+                                            },
+                                            "2": {
+                                              "title": "$ [Model].delete_all",
+                                              "id": 128
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "3": {
+                                  "title": "remove_colomn :statuses, :name",
+                                  "id": 123
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "modifier un table",
+                  "id": 119
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 34,
+      "ideaIdTo": 35,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 44,
+      "ideaIdTo": 42,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 80,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 79,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 90,
+      "ideaIdTo": 87,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 123,
+      "ideaIdTo": 125,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 121,
+      "ideaIdTo": 125,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
