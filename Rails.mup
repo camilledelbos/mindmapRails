@@ -390,46 +390,57 @@
                 }
               }
             },
-            "14": {
-              "title": " ! [rejected] ou fatal: The current branch master has no upstream branch",
-              "id": 143,
+            "15": {
+              "title": "créationd'un repo avec README mais pas synchronisé avec le local",
+              "id": 153,
               "ideas": {
-                "2": {
-                  "title": "essayer",
-                  "id": 151,
+                "1": {
+                  "title": " ! [rejected] ou fatal: The current branch master has no upstream branch",
+                  "id": 143,
                   "ideas": {
-                    "1": {
-                      "title": "$ git init",
-                      "id": 145,
+                    "2": {
+                      "title": "essayer",
+                      "id": 151,
                       "ideas": {
                         "1": {
-                          "title": "$ git remote add origin http.... [app]",
-                          "id": 147,
+                          "title": "$ git init",
+                          "id": 145,
                           "ideas": {
                             "1": {
-                              "title": "$ git pull origin master",
-                              "id": 148,
+                              "title": "$ git remote add origin http.... [app]",
+                              "id": 147,
                               "ideas": {
                                 "1": {
-                                  "title": "$ git fetch",
-                                  "id": 150,
+                                  "title": "$ git pull origin master",
+                                  "id": 148,
                                   "ideas": {
                                     "1": {
-                                      "title": "ensuite add, commit push",
-                                      "id": 152
+                                      "title": "$ git fetch",
+                                      "id": 150,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "ensuite add, commit push",
+                                          "id": 152
+                                        }
+                                      }
                                     }
                                   }
                                 }
                               }
                             }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
                           }
                         }
-                      },
-                      "attr": {
-                        "style": {
-                          "background": "#E0E0E0"
-                        }
                       }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
                     }
                   }
                 }
