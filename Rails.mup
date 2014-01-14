@@ -87,16 +87,6 @@
                       "background": "#E0E0E0"
                     }
                   }
-                },
-                "2": {
-                  "title": "$ rails generate controller NOM ACTION1 ACTION2 ACTION3",
-                  "id": 76,
-                  "ideas": {},
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
                 }
               }
             },
@@ -125,10 +115,21 @@
                     }
                   }
                 },
-                "6": {
-                  "title": "$ rails generate [Product] name:string description:text",
-                  "id": 80,
-                  "ideas": {},
+                "7": {
+                  "title": "$ rails generate controller NOM ACTION1 ACTION2 ACTION3",
+                  "id": 76,
+                  "ideas": {
+                    "1": {
+                      "title": "$ rails generate [Product] name:string description:text",
+                      "id": 80,
+                      "ideas": {},
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  },
                   "attr": {
                     "style": {
                       "background": "#E0E0E0"
@@ -411,6 +412,30 @@
               "title": "cmd + t",
               "id": 105,
               "ideas": {}
+            }
+          }
+        },
+        "3": {
+          "title": "suppression",
+          "id": 129,
+          "ideas": {
+            "1": {
+              "title": "dossier",
+              "id": 130,
+              "ideas": {
+                "1": {
+                  "title": "rm -r",
+                  "id": 131
+                },
+                "2": {
+                  "title": "rm -rf",
+                  "id": 132
+                },
+                "3": {
+                  "title": "rm dir",
+                  "id": 136
+                }
+              }
             }
           }
         }
