@@ -11,55 +11,6 @@
           "title": "terminal",
           "id": 24,
           "ideas": {
-            "1": {
-              "title": "créer repo local",
-              "id": 38,
-              "ideas": {
-                "1": {
-                  "title": "$ git init",
-                  "id": 26,
-                  "ideas": {
-                    "2": {
-                      "title": "$ git add .",
-                      "id": 28,
-                      "ideas": {
-                        "1": {
-                          "title": "$ git commit -m \"Commentaire\"",
-                          "id": 29,
-                          "ideas": {
-                            "1": {
-                              "title": "copicol $ git remote add origin http/git@github.com/camilledelbos/APP.git",
-                              "id": 35,
-                              "ideas": {
-                                "1": {
-                                  "title": "git push origin master",
-                                  "id": 27,
-                                  "attr": {
-                                    "style": {
-                                      "background": "#E0E0E0"
-                                    }
-                                  }
-                                }
-                              },
-                              "attr": {
-                                "style": {
-                                  "background": "#E0E0E0"
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
-                }
-              }
-            },
             "2": {
               "title": "créer appli",
               "id": 36,
@@ -119,6 +70,49 @@
                                   "background": "#E0E0E0"
                                 }
                               }
+                            }
+                          }
+                        },
+                        "4": {
+                          "title": "$ git init",
+                          "id": 26,
+                          "ideas": {
+                            "2": {
+                              "title": "$ git add .",
+                              "id": 28,
+                              "ideas": {
+                                "1": {
+                                  "title": "$ git commit -m \"Commentaire\"",
+                                  "id": 29,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "copicol $ git remote add origin http/git@github.com/camilledelbos/APP.git",
+                                      "id": 35,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "git push origin master",
+                                          "id": 27,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#E0E0E0"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
                             }
                           }
                         }
@@ -470,7 +464,8 @@
           "attr": {
             "style": {
               "background": "#E0E0E0"
-            }
+            },
+            "collapsed": true
           }
         },
         "2": {
