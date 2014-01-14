@@ -176,6 +176,21 @@
                           "background": "#E0E0E0"
                         }
                       }
+                    },
+                    "2": {
+                      "title": "créer la route",
+                      "id": 139,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "config/route.rb",
+                          "id": 140
+                        }
+                      }
                     }
                   },
                   "attr": {
@@ -375,6 +390,51 @@
                 }
               }
             },
+            "14": {
+              "title": " ! [rejected] ou fatal: The current branch master has no upstream branch",
+              "id": 143,
+              "ideas": {
+                "2": {
+                  "title": "essayer",
+                  "id": 151,
+                  "ideas": {
+                    "1": {
+                      "title": "$ git init",
+                      "id": 145,
+                      "ideas": {
+                        "1": {
+                          "title": "$ git remote add origin http.... [app]",
+                          "id": 147,
+                          "ideas": {
+                            "1": {
+                              "title": "$ git pull origin master",
+                              "id": 148,
+                              "ideas": {
+                                "1": {
+                                  "title": "$ git fetch",
+                                  "id": 150,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "ensuite add, commit push",
+                                      "id": 152
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "5.5": {
               "title": "dernier(s) commit",
               "id": 72,
@@ -397,7 +457,6 @@
             }
           },
           "attr": {
-            "collapsed": true,
             "style": {
               "background": "#E0E0E0"
             }
@@ -437,10 +496,19 @@
               }
             }
           }
+        },
+        "4": {
+          "title": "rake",
+          "id": 141,
+          "ideas": {
+            "1": {
+              "title": "$ rake routes",
+              "id": 142
+            }
+          }
         }
       },
       "attr": {
-        "collapsed": true,
         "style": {
           "background": "#E0E0E0"
         }
