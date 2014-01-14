@@ -4,13 +4,62 @@
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "1. je suis admin",
+      "title": "1. je suis auteur",
       "id": 2,
       "ideas": {
         "3": {
           "title": "terminal",
           "id": 24,
           "ideas": {
+            "1": {
+              "title": "créer repo local",
+              "id": 38,
+              "ideas": {
+                "1": {
+                  "title": "$ git init",
+                  "id": 26,
+                  "ideas": {
+                    "2": {
+                      "title": "$ git add .",
+                      "id": 28,
+                      "ideas": {
+                        "1": {
+                          "title": "$ git commit -m \"Commentaire\"",
+                          "id": 29,
+                          "ideas": {
+                            "1": {
+                              "title": "copicol $ git remote add origin http/git@github.com/camilledelbos/APP.git",
+                              "id": 35,
+                              "ideas": {
+                                "1": {
+                                  "title": "git push origin master",
+                                  "id": 27,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
             "2": {
               "title": "créer appli",
               "id": 36,
@@ -28,40 +77,39 @@
                           "id": 16,
                           "ideas": {
                             "1": {
-                              "title": "$ rails new [APP]",
+                              "title": "$ rails new [APP] --skip-test-unit",
                               "id": 12,
                               "ideas": {
-                                "2": {
-                                  "title": "password",
-                                  "id": 17,
+                                "3": {
+                                  "title": "cd [APP]",
+                                  "id": 18,
                                   "ideas": {
                                     "1": {
-                                      "title": "cd [APP]",
-                                      "id": 18,
+                                      "title": "$ rails server",
+                                      "id": 13,
                                       "ideas": {
                                         "1": {
-                                          "title": "$ rails server",
-                                          "id": 13,
+                                          "title": "0.0.0.0:3000 (Win 127.0.0.1:3000)",
+                                          "id": 14,
                                           "ideas": {
-                                            "1": {
-                                              "title": "0.0.0.0:3000 (Win 127.0.0.1:3000)",
-                                              "id": 14,
-                                              "ideas": {
-                                                "2": {
-                                                  "title": "quitter serveur",
-                                                  "id": 23,
-                                                  "ideas": {}
-                                                }
-                                              }
-                                            }
-                                          },
-                                          "attr": {
-                                            "style": {
-                                              "background": "#E0E0E0"
+                                            "2": {
+                                              "title": "quitter serveur",
+                                              "id": 23,
+                                              "ideas": {}
                                             }
                                           }
                                         }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
                                       }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
                                     }
                                   }
                                 }
@@ -126,55 +174,6 @@
                       "attr": {
                         "style": {
                           "background": "#E0E0E0"
-                        }
-                      }
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
-                }
-              }
-            },
-            "4": {
-              "title": "créer repo local",
-              "id": 38,
-              "ideas": {
-                "1": {
-                  "title": "$ git init",
-                  "id": 26,
-                  "ideas": {
-                    "2": {
-                      "title": "$ git add .",
-                      "id": 28,
-                      "ideas": {
-                        "1": {
-                          "title": "$ git commit -m \"Commentaire\"",
-                          "id": 29,
-                          "ideas": {
-                            "1": {
-                              "title": "copicol $ git remote add origin http/git@github.com/camilledelbos/APP.git",
-                              "id": 35,
-                              "ideas": {
-                                "1": {
-                                  "title": "git push origin master",
-                                  "id": 27,
-                                  "attr": {
-                                    "style": {
-                                      "background": "#E0E0E0"
-                                    }
-                                  }
-                                }
-                              },
-                              "attr": {
-                                "style": {
-                                  "background": "#E0E0E0"
-                                }
-                              }
-                            }
-                          }
                         }
                       }
                     }
@@ -438,6 +437,12 @@
               }
             }
           }
+        }
+      },
+      "attr": {
+        "collapsed": true,
+        "style": {
+          "background": "#E0E0E0"
         }
       }
     },
@@ -778,6 +783,12 @@
                   "id": 119
                 }
               }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {
+              "background": "#E0E0E0"
             }
           }
         }
