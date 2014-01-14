@@ -157,39 +157,67 @@
                     }
                   }
                 },
-                "7": {
-                  "title": "$ rails generate controller NOM ACTION1 ACTION2 ACTION3",
-                  "id": 76,
+                "8": {
+                  "title": "créer controller",
+                  "id": 154,
                   "ideas": {
                     "1": {
-                      "title": "$ rails generate [Product] name:string description:text",
-                      "id": 80,
-                      "ideas": {},
-                      "attr": {
-                        "style": {
-                          "background": "#E0E0E0"
-                        }
-                      }
-                    },
-                    "2": {
-                      "title": "créer la route",
-                      "id": 139,
-                      "attr": {
-                        "style": {
-                          "background": "#E0E0E0"
+                      "title": "$ rails generate controller NOM ACTION1 ACTION2 ACTION3",
+                      "id": 76,
+                      "ideas": {
+                        "2": {
+                          "title": "créer la route",
+                          "id": 139,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "config/route.rb",
+                              "id": 140
+                            }
+                          }
                         }
                       },
-                      "ideas": {
-                        "1": {
-                          "title": "config/route.rb",
-                          "id": 140
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
                         }
                       }
                     }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
+                  }
+                },
+                "9": {
+                  "title": "créer model",
+                  "id": 155,
+                  "ideas": {
+                    "1": {
+                      "title": "$ rails generate model [Product] name:string description:text",
+                      "id": 80,
+                      "ideas": {
+                        "1": {
+                          "title": "$ rake db:migrate",
+                          "ideas": {
+                            "1": {
+                              "title": "relancer serveur",
+                              "id": 157
+                            }
+                          },
+                          "id": 156,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
                     }
                   }
                 }
@@ -205,6 +233,23 @@
                   "attr": {
                     "style": {
                       "background": "#E0E0E0"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "$ rake db:migrate",
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "relancer serveur",
+                          "id": 159
+                        }
+                      },
+                      "id": 158
                     }
                   }
                 }
@@ -889,26 +934,6 @@
           "color": "#FF0000",
           "lineStyle": "dashed",
           "arrow": true
-        }
-      }
-    },
-    {
-      "ideaIdFrom": 80,
-      "ideaIdTo": 21,
-      "attr": {
-        "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
-        }
-      }
-    },
-    {
-      "ideaIdFrom": 79,
-      "ideaIdTo": 21,
-      "attr": {
-        "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
         }
       }
     },
