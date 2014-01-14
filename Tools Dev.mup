@@ -1,0 +1,249 @@
+{
+  "title": "Tools Dev",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "GitHub",
+      "id": 3
+    },
+    "2": {
+      "title": "FAQ",
+      "id": 6,
+      "ideas": {
+        "3": {
+          "title": "interne",
+          "id": 20,
+          "ideas": {
+            "1": {
+              "title": "Discourse",
+              "id": 19,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "externe",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "Stackoverflow",
+              "id": 17,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "title": "Rake",
+      "id": 9
+    },
+    "5": {
+      "title": "Rails",
+      "id": 16
+    },
+    "6": {
+      "title": "gem",
+      "id": 32
+    },
+    "7": {
+      "title": "HTTP",
+      "id": 57,
+      "ideas": {
+        "1": {
+          "title": "GET",
+          "id": 59
+        },
+        "2": {
+          "title": "POST",
+          "id": 60
+        }
+      }
+    },
+    "17": {
+      "title": "MVC",
+      "id": 15
+    },
+    "-1": {
+      "title": "Sinatra",
+      "id": 4,
+      "ideas": {
+        "1": {
+          "title": "Dossier NOM_APP",
+          "id": 31,
+          "ideas": {
+            "1": {
+              "title": "app.rb",
+              "id": 34,
+              "ideas": {
+                "1": {
+                  "title": "gem",
+                  "id": 49,
+                  "ideas": {
+                    "1": {
+                      "title": "'require sinatra' importe la librairie sinatra",
+                      "id": 52
+                    },
+                    "2": {
+                      "title": "'require sinatra/activerecord'",
+                      "id": 53,
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "<div><a href=\"https://github.com/janko-m/sinatra-activerecord\">https://github.com/janko-m/sinatra-activerecord</a><br></div>"
+                        },
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "'require sqlite3'\n",
+                      "id": 54
+                    },
+                    "4": {
+                      "title": "'require rake'\n",
+                      "id": 55
+                    },
+                    "5": {
+                      "title": "'require pry'\n",
+                      "id": 56
+                    }
+                  }
+                },
+                "2": {
+                  "title": "set :database, \"sqlite3:///todoapp.sqlite3\"    specifie l'emplacement du fichier db",
+                  "id": 50
+                },
+                "3": {
+                  "title": "Class Singulier< (hérite d') ActiveRecord:Base",
+                  "id": 51
+                }
+              }
+            },
+            "2": {
+              "title": "nom_app.sqlite3\n",
+              "id": 35
+            },
+            "3": {
+              "title": "views (cde 'mkdir views)",
+              "id": 36,
+              "ideas": {
+                "1": {
+                  "title": ".erb (cde touch index.erb')",
+                  "id": 46
+                },
+                "2": {
+                  "title": "layout.erb",
+                  "id": 47,
+                  "ideas": {
+                    "1": {
+                      "title": "<%= yield %> le '=' dit afficher qqch. s'il n'y est pas veut dire ne pas afficher",
+                      "id": 48
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "public",
+              "id": 37,
+              "ideas": {
+                "1": {
+                  "title": ".css\n",
+                  "id": 45
+                }
+              }
+            },
+            "5": {
+              "title": "rakefile",
+              "id": 38
+            },
+            "6": {
+              "title": "db",
+              "id": 39,
+              "ideas": {
+                "1": {
+                  "title": "schema.rb\n",
+                  "id": 41
+                },
+                "2": {
+                  "title": "migrate",
+                  "id": 42,
+                  "ideas": {
+                    "1": {
+                      "title": "YYYYMMJJHHMMSS__create_nom_base.rb\n",
+                      "id": 43
+                    },
+                    "2": {
+                      "title": "YYYYMMJJHHMMSS_add_colomn.rb",
+                      "id": 44
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            },
+            "collapsed": true
+          }
+        }
+      }
+    },
+    "-2": {
+      "title": "ActiveRecord",
+      "id": 8,
+      "ideas": {
+        "1": {
+          "title": "CRUD",
+          "id": 22,
+          "ideas": {
+            "1": {
+              "title": "Class 1",
+              "id": 23
+            },
+            "2": {
+              "title": "Class 2",
+              "id": 24
+            }
+          }
+        }
+      }
+    },
+    "-0.5": {
+      "title": "Git",
+      "id": 10
+    },
+    "-14": {
+      "title": "Environnement de test",
+      "id": 25,
+      "ideas": {
+        "2": {
+          "title": "pry",
+          "id": 26
+        },
+        "12": {
+          "title": "Cucumber",
+          "id": 14,
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
