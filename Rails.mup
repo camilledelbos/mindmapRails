@@ -136,47 +136,46 @@
               "title": "créer bdd",
               "id": 37,
               "ideas": {
-                "1": {
-                  "title": "$ rails generate scaffold status name:string content:text",
-                  "id": 19,
+                "11": {
+                  "title": "option 3",
+                  "id": 177,
                   "ideas": {
                     "1": {
-                      "title": "$ rake db:migrate",
-                      "id": 21,
+                      "title": "$ rails g resource NOM CHAMP",
+                      "id": 169,
+                      "attr": {
+                        "attachment": {
+                          "contentType": "text/html",
+                          "content": "génère un controller, model, migration et vue"
+                        },
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      },
                       "ideas": {
                         "1": {
-                          "title": "relancer serveur",
-                          "id": 22
+                          "title": "$ rake db:migrate",
+                          "id": 170
                         }
                       }
                     }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
                   }
                 },
-                "8": {
-                  "title": "créer controller",
-                  "id": 154,
+                "4.5": {
+                  "title": "option 1",
+                  "id": 175,
                   "ideas": {
                     "1": {
-                      "title": "$ rails generate controller NOM ACTION1 ACTION2 ACTION3",
-                      "id": 76,
+                      "title": "$ rails generate scaffold status name:string content:text",
+                      "id": 19,
                       "ideas": {
-                        "2": {
-                          "title": "créer la route",
-                          "id": 139,
-                          "attr": {
-                            "style": {
-                              "background": "#E0E0E0"
-                            }
-                          },
+                        "1": {
+                          "title": "$ rake db:migrate",
+                          "id": 21,
                           "ideas": {
                             "1": {
-                              "title": "config/route.rb",
-                              "id": 140
+                              "title": "relancer serveur",
+                              "id": 22
                             }
                           }
                         }
@@ -189,23 +188,71 @@
                     }
                   }
                 },
-                "9": {
-                  "title": "créer model",
-                  "id": 155,
+                "6.25": {
+                  "title": "option 2",
+                  "id": 176,
                   "ideas": {
                     "1": {
-                      "title": "$ rails generate model [Product] name:string description:text",
-                      "id": 80,
+                      "title": "créer controller",
+                      "id": 154,
                       "ideas": {
                         "1": {
-                          "title": "$ rake db:migrate",
+                          "title": "$ rails generate controller NOM ACTION1 ACTION2 ACTION3",
+                          "id": 76,
                           "ideas": {
-                            "1": {
-                              "title": "relancer serveur",
-                              "id": 157
+                            "2": {
+                              "title": "créer la route",
+                              "id": 139,
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "config/route.rb",
+                                  "id": 140
+                                }
+                              }
                             }
                           },
-                          "id": 156,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "créer model",
+                      "id": 155,
+                      "ideas": {
+                        "1": {
+                          "title": "$ rails generate model [Product] name:string description:text",
+                          "id": 80,
+                          "ideas": {
+                            "1": {
+                              "title": "$ rake db:migrate",
+                              "ideas": {
+                                "1": {
+                                  "title": "relancer serveur",
+                                  "id": 157
+                                }
+                              },
+                              "id": 156,
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              }
+                            }
+                          },
                           "attr": {
                             "style": {
                               "background": "#E0E0E0"
@@ -250,6 +297,36 @@
                         }
                       },
                       "id": 158
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "sublime",
+          "id": 160,
+          "ideas": {
+            "1": {
+              "title": "créer une page statique",
+              "id": 161,
+              "ideas": {
+                "2": {
+                  "title": "ajouter au controller        def [page]\n  end",
+                  "id": 164,
+                  "ideas": {}
+                },
+                "3": {
+                  "title": "views/[nomcontroller]/[nompage]",
+                  "id": 165
+                },
+                "4": {
+                  "title": "config/route.rb",
+                  "id": 163,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
                     }
                   }
                 }
@@ -555,6 +632,54 @@
             "1": {
               "title": "$ rake routes",
               "id": 142
+            }
+          }
+        },
+        "6": {
+          "title": "lance la dernière comande",
+          "id": 168,
+          "ideas": {
+            "1": {
+              "title": "!?",
+              "id": 167,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        },
+        "10": {
+          "title": "test dev prod",
+          "id": 174,
+          "ideas": {
+            "1": {
+              "title": "test : ce que le testeur et le dév utilise",
+              "id": 171,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "production : ce que le client utilise",
+              "id": 172,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "3": {
+              "title": "developpement : ce que le dev utilise",
+              "id": 173,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
             }
           }
         }
