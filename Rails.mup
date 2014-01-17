@@ -682,6 +682,14 @@
               }
             }
           }
+        },
+        "11": {
+          "title": "variable locale est nil par defaut",
+          "id": 178
+        },
+        "12": {
+          "title": "une variable locale qui n'existe pas est nil par défaut",
+          "id": 179
         }
       },
       "attr": {
@@ -1033,6 +1041,21 @@
             "collapsed": true,
             "style": {
               "background": "#E0E0E0"
+            }
+          }
+        },
+        "4": {
+          "title": "gem 'pry-rails'",
+          "id": 181,
+          "ideas": {
+            "1": {
+              "title": "$ bundle exec rails c",
+              "id": 180,
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
             }
           }
         }
