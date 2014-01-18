@@ -782,6 +782,32 @@
               }
             }
           }
+        },
+        "17": {
+          "title": "DEFINITIONS",
+          "id": 253,
+          "ideas": {
+            "1": {
+              "title": "attr_accessible",
+              "id": 251,
+              "ideas": {
+                "1": {
+                  "title": "liste des champ de la bdd qui sont autorisés à être mis à jour via un formulaire",
+                  "id": 252
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#993366"
+            }
+          }
         }
       },
       "attr": {
@@ -889,7 +915,18 @@
           "ideas": {
             "1": {
               "title": "$   git pull origin master",
-              "id": 85
+              "id": 85,
+              "ideas": {
+                "1": {
+                  "title": "$ rake db:migrate",
+                  "id": 250,
+                  "attr": {
+                    "style": {
+                      "background": "#ff6600"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -908,18 +945,185 @@
           "title": "Devise",
           "id": 94,
           "ideas": {
-            "7": {
-              "title": "installation",
-              "id": 109,
+            "7.5": {
+              "title": "1",
+              "id": 235,
               "ideas": {
                 "1": {
-                  "title": "Gemfile",
-                  "id": 89,
+                  "title": "installation",
+                  "id": 109,
                   "ideas": {
-                    "1": {
-                      "title": "gem 'devise'",
-                      "id": 90,
-                      "ideas": {}
+                    "2.5": {
+                      "title": "1.1",
+                      "id": 237,
+                      "ideas": {
+                        "1": {
+                          "title": "Gemfile",
+                          "id": 89,
+                          "ideas": {
+                            "1": {
+                              "title": "gem 'devise'",
+                              "id": 90,
+                              "ideas": {}
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "2.75": {
+                      "title": "1.2",
+                      "id": 238,
+                      "ideas": {
+                        "1": {
+                          "title": "terminal",
+                          "id": 87,
+                          "ideas": {
+                            "2": {
+                              "title": "terminal $  bundle install",
+                              "id": 91,
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "$  rails generate devise:install",
+                                  "id": 93,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "2.875": {
+                      "title": "1.3",
+                      "id": 239,
+                      "ideas": {
+                        "2": {
+                          "title": "LIRE CE QUI EST GENERE ET SUIVRE LES ETAPES",
+                          "id": 214,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            },
+                            "collapsed": true
+                          },
+                          "ideas": {
+                            "0.75": {
+                              "title": "1.32",
+                              "id": 243,
+                              "ideas": {
+                                "1": {
+                                  "title": "config.environnement/developpement.rb",
+                                  "id": 96,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "config.action_mailer.default_url_options = {:host => 'localhost:3000'}",
+                                      "id": 97
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "0.875": {
+                              "title": "1.33",
+                              "id": 244,
+                              "ideas": {
+                                "1": {
+                                  "title": "app/views/layouts/application.html.rb",
+                                  "id": 101,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "<p class=\"notice\"><%= notice %></p> <p class=\"alert\"><%= alert%></p>",
+                                      "id": 102
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "1.4375": {
+                              "title": "1.34",
+                              "id": 245,
+                              "ideas": {
+                                "1": {
+                                  "title": "application.rb",
+                                  "id": 103,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "config.assets.initialize_on_precompile = false",
+                                      "id": 107
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "0.375": {
+                              "title": "1.31",
+                              "id": 240,
+                              "ideas": {
+                                "1": {
+                                  "title": "config/routes.rb",
+                                  "id": 98,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "root :to => \"home#index\"",
+                                      "id": 99,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "aller dans /public et supprimer le fichier 'index.html'",
+                                          "id": 100
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   },
                   "attr": {
@@ -927,23 +1131,252 @@
                       "background": "#E0E0E0"
                     }
                   }
-                },
-                "2": {
-                  "title": "terminal",
-                  "id": 87,
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "7.75": {
+              "title": "2",
+              "id": 236,
+              "ideas": {
+                "1": {
+                  "title": "configuration",
+                  "id": 223,
                   "ideas": {
-                    "2": {
-                      "title": "terminal $  bundle install",
-                      "id": 91,
-                      "attr": {
-                        "style": {
-                          "background": "#E0E0E0"
-                        }
-                      },
+                    "2.5": {
+                      "title": "2.1",
+                      "id": 246,
                       "ideas": {
                         "1": {
-                          "title": "$  rails generate devise:install",
-                          "id": 93,
+                          "title": "générer model DEVISE",
+                          "id": 218,
+                          "ideas": {
+                            "2": {
+                              "title": "$ rails generate devise user",
+                              "id": 112,
+                              "ideas": {
+                                "2": {
+                                  "title": "AJOUTER A TABLE USER t.string :first_name t.string :last_name t.string :profile_name",
+                                  "id": 215,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "$ rake db:migrate",
+                                      "id": 113,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": "observer les routes créées avec $ rake routes",
+                                          "id": 216
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "2.75": {
+                      "title": "2.2",
+                      "id": 247,
+                      "ideas": {
+                        "1": {
+                          "title": "générer les vues DEVISE",
+                          "id": 217,
+                          "ideas": {
+                            "1": {
+                              "title": "$ rails generate devise:views",
+                              "id": 219,
+                              "ideas": {
+                                "1": {
+                                  "title": "views/devise/registration/new.html.erb ajouter les champ prénom/nom",
+                                  "id": 220,
+                                  "attr": {
+                                    "attachment": {
+                                      "contentType": "text/html",
+                                      "content": "&lt;div&gt;&lt;%= f.label :first_name %&gt;&lt;/br&gt;<div>&lt;%= f.text_field :first_name %&gt;&lt;/div&gt;</div><div><br></div><div>&lt;div&gt;&lt;%= f.label :last_name %&gt;&lt;/br&gt;<div>&lt;%= f.text_field :last_name %&gt;&lt;/div&gt;</div></div><div><br></div><div>&lt;div&gt;&lt;%= f.label :profile_name %&gt;&lt;/br&gt;<div>&lt;%= f.text_field :profile_name %&gt;&lt;/div&gt;</div></div>"
+                                    },
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "ajouter au model user.rb les champs first_, last_, profil_name aux attr_accessible",
+                                      "id": 221,
+                                      "ideas": {}
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "2.875": {
+                      "title": "2.3",
+                      "id": 248,
+                      "ideas": {
+                        "1": {
+                          "title": "viser la bdd",
+                          "id": 227,
+                          "ideas": {
+                            "1": {
+                              "title": "$ rails c",
+                              "id": 228,
+                              "ideas": {
+                                "1": {
+                                  "title": "user = User.first",
+                                  "id": 229,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "$ user.destroy",
+                                      "id": 231,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "$ exit",
+                                          "id": 232
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "3.9375": {
+                      "title": "2.4",
+                      "id": 249,
+                      "ideas": {
+                        "1": {
+                          "title": "création d'une tabled'association",
+                          "id": 233,
+                          "ideas": {
+                            "4": {
+                              "title": "modifier un table",
+                              "id": 119,
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "générer une migration",
+                                  "id": 114,
+                                  "ideas": {
+                                    "2": {
+                                      "title": "$ rails generate migration [nom_migration ex. add_user_id_to_status]",
+                                      "id": 120,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "db/migrate/20140109...  ",
+                                          "id": 117,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#E0E0E0"
+                                            },
+                                            "attachment": {
+                                              "contentType": "text/html",
+                                              "content": "add_colomn :[modelS], user_id, :integer<div>add_index :[modelS], :user_id<br></div><div>remove_colomn :[modelS], :name<br></div><div><br></div><div>ex :&nbsp;</div><div>add_colomn :statuses, user_id, :integer<br></div>"
+                                            }
+                                          },
+                                          "ideas": {
+                                            "4": {
+                                              "title": "$ rake db:migrate",
+                                              "id": 125,
+                                              "ideas": {
+                                                "2": {
+                                                  "title": "vider la bdd",
+                                                  "id": 234,
+                                                  "ideas": {
+                                                    "1": {
+                                                      "title": "$ rails console",
+                                                      "id": 126,
+                                                      "ideas": {
+                                                        "2": {
+                                                          "title": "$ [Model].delete_all",
+                                                          "id": 128,
+                                                          "attr": {
+                                                            "attachment": {
+                                                              "contentType": "text/html",
+                                                              "content": "&nbsp;$ Status.delete_all"
+                                                            },
+                                                            "style": {
+                                                              "background": "#E0E0E0"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "attr": {
+                                                        "style": {
+                                                          "background": "#E0E0E0"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "attr": {
+                                                "style": {
+                                                  "background": "#E0E0E0"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
                           "attr": {
                             "style": {
                               "background": "#E0E0E0"
@@ -958,178 +1391,11 @@
                       "background": "#E0E0E0"
                     }
                   }
-                },
-                "3": {
-                  "title": "config.environnement/developpement.rb",
-                  "id": 96,
-                  "ideas": {
-                    "1": {
-                      "title": "config.action_mailer.default_url_options = {:host => 'localhost:3000'}",
-                      "id": 97
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
-                },
-                "4": {
-                  "title": "config/routes.rb",
-                  "id": 98,
-                  "ideas": {
-                    "1": {
-                      "title": "root :to => \"home#index\"",
-                      "id": 99,
-                      "ideas": {
-                        "1": {
-                          "title": "aller dans /public et supprimer le fichier 'index.html'",
-                          "id": 100
-                        }
-                      }
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
-                },
-                "5": {
-                  "title": "app/views/layouts/application.html.rb",
-                  "id": 101,
-                  "ideas": {
-                    "1": {
-                      "title": "<p class=\"notice\"><%= notice %></p> <p class=\"alert\"><%= alert%></p>",
-                      "id": 102
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
-                },
-                "6": {
-                  "title": "application.rb",
-                  "id": 103,
-                  "ideas": {
-                    "1": {
-                      "title": "config.assets.initialize_on_precompile = false",
-                      "id": 107
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
-                }
-              }
-            },
-            "8": {
-              "title": "générer un Model",
-              "id": 110,
-              "ideas": {
-                "1": {
-                  "title": "terminal",
-                  "id": 111,
-                  "ideas": {
-                    "1": {
-                      "title": "$ rails generate devise [NOMMODEL ex.user]",
-                      "id": 112,
-                      "ideas": {
-                        "1": {
-                          "title": "$ rake db:migrate",
-                          "id": 113
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "10": {
-              "title": "migration",
-              "id": 118,
-              "ideas": {
-                "1": {
-                  "title": "générer une migration",
-                  "id": 114,
-                  "ideas": {
-                    "1": {
-                      "title": "$ rails generate migration [migration_name]",
-                      "id": 116,
-                      "ideas": {
-                        "2": {
-                          "title": "modifier une table $ rails generate migration [ex. add_user_id_to_status]",
-                          "id": 120,
-                          "ideas": {
-                            "1": {
-                              "title": "db/migrate/20140109...  ",
-                              "id": 117,
-                              "attr": {
-                                "style": {
-                                  "background": "#E0E0E0"
-                                }
-                              },
-                              "ideas": {
-                                "1": {
-                                  "title": "add_colomn :statuses, user_id, :integer ",
-                                  "id": 121
-                                },
-                                "2": {
-                                  "title": "ass_index :statuses, :user_id",
-                                  "id": 122,
-                                  "ideas": {
-                                    "1": {
-                                      "title": "$ rake db:migrate",
-                                      "id": 125,
-                                      "ideas": {
-                                        "1": {
-                                          "title": "$ rails console",
-                                          "id": 126,
-                                          "ideas": {
-                                            "1": {
-                                              "title": " $ Status.delete_all",
-                                              "id": 127
-                                            },
-                                            "2": {
-                                              "title": "$ [Model].delete_all",
-                                              "id": 128
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "3": {
-                                  "title": "remove_colomn :statuses, :name",
-                                  "id": 123
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "attr": {
-                    "style": {
-                      "background": "#E0E0E0"
-                    }
-                  }
-                },
-                "2": {
-                  "title": "modifier un table",
-                  "id": 119
                 }
               }
             }
           },
           "attr": {
-            "collapsed": true,
             "style": {
               "background": "#E0E0E0"
             }
@@ -1179,26 +1445,6 @@
     {
       "ideaIdFrom": 90,
       "ideaIdTo": 87,
-      "attr": {
-        "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
-        }
-      }
-    },
-    {
-      "ideaIdFrom": 123,
-      "ideaIdTo": 125,
-      "attr": {
-        "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
-        }
-      }
-    },
-    {
-      "ideaIdFrom": 121,
-      "ideaIdTo": 125,
       "attr": {
         "style": {
           "color": "#FF0000",
