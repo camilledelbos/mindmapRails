@@ -690,6 +690,98 @@
         "12": {
           "title": "une variable locale qui n'existe pas est nil par défaut",
           "id": 179
+        },
+        "14": {
+          "title": "routes",
+          "id": 186,
+          "ideas": {
+            "1": {
+              "title": "helper link_to",
+              "id": 182,
+              "ideas": {
+                "2": {
+                  "title": "premier argument est le texte du lien et le second est l'URL du lien",
+                  "id": 185,
+                  "ideas": {
+                    "2": {
+                      "title": "exemple",
+                      "id": 195,
+                      "ideas": {
+                        "1": {
+                          "title": "<%= link_to user_path(@user), @user %> équivaut à <%= link_to user_path(@user), user_path(@user %>",
+                          "id": 187,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "<li><%= link_to \"Contact\", contact_path %></li>",
+                          "id": 183,
+                          "ideas": {},
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "<% if signed_in? %>\n      <li><%= link_to \"Déconnexion\", signout_path, :method => :delete %></li>\n      <% else %>\n      <li><%= link_to \"S'identifier\", signin_path %></li>\n      <% end %>",
+                          "id": 196
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "2": {
+              "title": "redirect_to",
+              "id": 188
+            }
+          }
+        },
+        "15": {
+          "title": "message flash",
+          "id": 189,
+          "ideas": {
+            "2": {
+              "title": "view/layout",
+              "id": 191,
+              "ideas": {
+                "1": {
+                  "title": "  <% flash.each do |key, value| %>\n          <div class=\"flash <%= key %>\"><%= value %></div>\n        <% end %>",
+                  "id": 190,
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "controller",
+              "id": 192,
+              "ideas": {
+                "1": {
+                  "title": "def create\n    @user = User.new(params[:user])\n    if @user.save\n      flash[:success] = \"Bienvenue dans l'Application Exemple!\"\n      redirect_to @user\n    else\n      @titre = \"Inscription\"\n      render 'new'\n    end\n  end",
+                  "id": 194
+                }
+              }
+            }
+          }
         }
       },
       "attr": {
@@ -803,7 +895,6 @@
         }
       },
       "attr": {
-        "collapsed": true,
         "style": {
           "background": "#E0E0E0"
         }
