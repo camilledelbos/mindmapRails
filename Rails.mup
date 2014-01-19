@@ -1528,6 +1528,19 @@
                         "3": {
                           "title": "bootstraper ou foundationner",
                           "id": 274
+                        },
+                        "4": {
+                          "title": "views/devise/sessions/new.html.erb  modifier la mage sign in",
+                          "id": 275,
+                          "attr": {
+                            "attachment": {
+                              "contentType": "text/html",
+                              "content": "<div><br></div><div>&lt;div class=\"row\"&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;div class=\"span4\"&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;%= simple_form_for(resource, :as =&gt; resource_name, :url =&gt; session_path(resource_name), html: {class: \"well\"}) do |f| %&gt;</div><div><br></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t\t</span></span>&lt;fieldset&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t\t\t</span></span>&lt;legend&gt;Sign In&lt;/legend&gt;<span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span> &nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t\t</span></span>&lt;%= f.input :email %&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t\t</span></span>&lt;%= f.input :password %&gt;</div><div><br></div><div><br></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span> &nbsp;&lt;% if devise_mapping.rememberable? -%&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span> &nbsp; &nbsp;&lt;div&gt;&lt;%= f.input :remember_me, as: :boolean %&gt;&lt;/div&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span> &nbsp;&lt;% end -%&gt;</div><div><br></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span> &nbsp;&lt;div&gt;&lt;%= f.button :submit, \"Sign in\" %&gt;&lt;/div&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;/fieldset&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;% end %&gt;</div><div><br></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;%= render \"devise/shared/links\" %&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;/div&gt;</div><div><br></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;div class=\"span8\"&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t\t</span></span>&lt;h2&gt;Signing in is easy and secure&lt;/h2&gt;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"><span style=\"white-space: normal;\">\t</span></span>&lt;/div&gt;</div><div>&lt;/div&gt;</div>"
+                            },
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
                         }
                       }
                     }
@@ -1537,11 +1550,167 @@
             }
           },
           "attr": {
-            "collapsed": true,
             "style": {
               "background": "#E0E0E0"
             }
           }
+        }
+      }
+    },
+    "-2": {
+      "title": "testing",
+      "id": 276,
+      "ideas": {
+        "2": {
+          "title": "/test/unit/helper",
+          "id": 278,
+          "ideas": {
+            "5": {
+              "title": "$ rake db:migrate",
+              "id": 282,
+              "ideas": {
+                "1": {
+                  "title": "$ rake db:test:prepare",
+                  "id": 283,
+                  "ideas": {
+                    "1": {
+                      "title": "$ ruby -Itest test/unit/user_test.rb",
+                      "id": 281,
+                      "ideas": {
+                        "1": {
+                          "title": "attention à  /fixtures supprimer ce qu'il y a dan user et ne garder que content dans status",
+                          "id": 284
+                        },
+                        "2": {
+                          "title": "validates",
+                          "id": 288,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "user_test.rb",
+                              "id": 279,
+                              "ideas": {
+                                "4": {
+                                  "title": "model user.rb",
+                                  "id": 285,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "validates :first_name, presence :true         validates :last_name, presence :true        validates :profile_name, presence :true",
+                                      "id": 287,
+                                      "attr": {
+                                        "attachment": {
+                                          "contentType": "text/html",
+                                          "content": "validateS &nbsp; attention à bien écrire avec un S à la fin"
+                                        },
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "attachment": {
+                                      "contentType": "text/html",
+                                      "content": "http://guides.rubyonrails.org/v2.3.11/activerecord_validations_callbacks.html"
+                                    },
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "attachment": {
+                                  "contentType": "text/html",
+                                  "content": "<div>class UserTest &gt; ctivesSupport::Test:Case</div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\">test \"a user should enter a first name\" do<div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>user = User.new</div></blockquote></div><div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>assert !user.save</div><div>assert !user.errors[:first_name].empty?</div></blockquote></div><div>end</div><div><br></div><div>test \"a user should enter a last name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>assert !user.errors[:last_name].empty?</div></blockquote></div><div>end</div></div><div><br></div><div>test \"a user should enter a profile name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>assert !user.errors[:profile_name].empty?</div></blockquote></div><div>end</div></div></blockquote><div>end</div>"
+                                },
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "uniqueness",
+                          "id": 289,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          },
+                          "ideas": {
+                            "1": {
+                              "title": "user_test.rb",
+                              "attr": {
+                                "attachment": {
+                                  "contentType": "text/html",
+                                  "content": "<div>class UserTest &gt; ctivesSupport::Test:Case</div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\">test \"a user should enter a first name\" do<div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>user = User.new</div></blockquote></div><div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>assert !user.save</div><div>assert !user.errors[:first_name].empty?</div></blockquote></div><div>end</div><div><br></div><div>test \"a user should enter a last name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>assert !user.errors[:last_name].empty?</div></blockquote></div><div>end</div></div><div><br></div><div>test \"a user should enter a profile name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>assert !user.errors[:profile_name].empty?</div></blockquote></div><div>end</div></div><div><br></div><div>test \"a user should enter a <b>unique</b> profile name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_profile_name = 'jasonseifer'</blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_email = 'jason@teamtreehouse.com'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_first_name = 'Jason'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_last_name = 'Seifer'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_password = 'password'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_password_confirmation = 'password'<br></blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>#puts user.errors.inspect &nbsp;(a utiliser tant que les tests ne passent pas, puis supprimer)</div><div>assert !user.errors[:profile_name].empty?</div></blockquote></div><div>end</div></div></blockquote><div>end</div>"
+                                },
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "model user.rb",
+                                  "attr": {
+                                    "attachment": {
+                                      "contentType": "text/html",
+                                      "content": "http://guides.rubyonrails.org/v2.3.11/activerecord_validations_callbacks.html"
+                                    },
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "validates :first_name, presence :true         validates :last_name, presence :true        validates :profile_name, presence :true",
+                                      "attr": {
+                                        "attachment": {
+                                          "contentType": "text/html",
+                                          "content": "validateS &nbsp; attention à bien écrire avec un S à la fin"
+                                        },
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      },
+                                      "id": 292
+                                    }
+                                  },
+                                  "id": 291
+                                }
+                              },
+                              "id": 290
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#E0E0E0"
         }
       }
     }
