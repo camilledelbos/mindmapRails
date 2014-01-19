@@ -366,7 +366,8 @@
       "attr": {
         "style": {
           "background": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       }
     },
     "2": {
@@ -935,7 +936,8 @@
       "attr": {
         "style": {
           "background": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       }
     },
     "-1": {
@@ -1552,7 +1554,8 @@
           "attr": {
             "style": {
               "background": "#E0E0E0"
-            }
+            },
+            "collapsed": true
           }
         }
       }
@@ -1599,7 +1602,7 @@
                                   "id": 285,
                                   "ideas": {
                                     "1": {
-                                      "title": "validates :first_name, presence :true         validates :last_name, presence :true        validates :profile_name, presence :true",
+                                      "title": "validates :first_name, presence: true         validates :last_name, presence: true        validates :profile_name, presence: true, uniqueness: true",
                                       "id": 287,
                                       "attr": {
                                         "attachment": {
@@ -1669,7 +1672,7 @@
                                   },
                                   "ideas": {
                                     "1": {
-                                      "title": "validates :first_name, presence :true         validates :last_name, presence :true        validates :profile_name, presence :true",
+                                      "title": "validates :first_name, presence: true         validates :last_name, presence: true        validates :profile_name, presence: true, uniqueness: true",
                                       "attr": {
                                         "attachment": {
                                           "contentType": "text/html",
@@ -1686,6 +1689,55 @@
                                 }
                               },
                               "id": 290
+                            }
+                          }
+                        },
+                        "4": {
+                          "title": "format",
+                          "id": 293,
+                          "ideas": {
+                            "1": {
+                              "title": "user_test.rb",
+                              "attr": {
+                                "attachment": {
+                                  "contentType": "text/html",
+                                  "content": "<div>class UserTest &gt; ctivesSupport::Test:Case</div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\">test \"a user should enter a first name\" do<div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>user = User.new</div></blockquote></div><div><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>assert !user.save</div><div>assert !user.errors[:first_name].empty?</div></blockquote></div><div>end</div><div><br></div><div>test \"a user should enter a last name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>assert !user.errors[:last_name].empty?</div></blockquote></div><div>end</div></div><div><br></div><div>test \"a user should enter a profile name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>assert !user.errors[:profile_name].empty?</div></blockquote></div><div>end</div></div><div><br></div><div>test \"a user should enter a <b>unique</b> profile name\" do<div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user = User.new</blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_profile_name = 'jasonseifer'</blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_email = 'jason@teamtreehouse.com'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_first_name = 'Jason'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_last_name = 'Seifer'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_password = 'password'<br></blockquote><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\">user_password_confirmation = 'password'<br></blockquote></div><div><blockquote style=\"padding-left: 0px; margin-bottom: 0px; margin-left: 40px; border: none;\"><div>assert !user.save</div><div>#puts user.errors.inspect &nbsp;(a utiliser tant que les tests ne passent pas, puis supprimer)</div><div>assert !user.errors[:profile_name].empty?</div></blockquote></div><div>end</div></div></blockquote><div>end</div>"
+                                },
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "model user.rb",
+                                  "attr": {
+                                    "attachment": {
+                                      "contentType": "text/html",
+                                      "content": "http://guides.rubyonrails.org/v2.3.11/activerecord_validations_callbacks.html"
+                                    },
+                                    "style": {
+                                      "background": "#E0E0E0"
+                                    }
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "validates :first_name, presence: true         validates :last_name, presence: true        validates :profile_name, presence: true, uniqueness: true,      format: { with: /a-zA-Z0-9_-/, message 'Dois être au bon format' }",
+                                      "attr": {
+                                        "attachment": {
+                                          "contentType": "text/html",
+                                          "content": "validateS &nbsp; attention à bien écrire avec un S à la fin"
+                                        },
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      },
+                                      "id": 299
+                                    }
+                                  },
+                                  "id": 298
+                                }
+                              },
+                              "id": 297
                             }
                           }
                         }
@@ -1711,7 +1763,8 @@
       "attr": {
         "style": {
           "background": "#E0E0E0"
-        }
+        },
+        "collapsed": true
       }
     }
   },
