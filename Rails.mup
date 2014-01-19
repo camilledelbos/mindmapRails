@@ -806,7 +806,8 @@
           "attr": {
             "style": {
               "background": "#993366"
-            }
+            },
+            "collapsed": true
           }
         }
       },
@@ -953,60 +954,27 @@
                   "title": "installation",
                   "id": 109,
                   "ideas": {
-                    "2.5": {
-                      "title": "1.1",
-                      "id": 237,
-                      "ideas": {
-                        "1": {
-                          "title": "Gemfile",
-                          "id": 89,
-                          "ideas": {
-                            "1": {
-                              "title": "gem 'devise'",
-                              "id": 90,
-                              "ideas": {}
-                            }
-                          },
-                          "attr": {
-                            "style": {
-                              "background": "#E0E0E0"
-                            }
-                          }
-                        }
-                      }
-                    },
                     "2.75": {
                       "title": "1.2",
                       "id": 238,
                       "ideas": {
-                        "1": {
-                          "title": "terminal",
-                          "id": 87,
+                        "2": {
+                          "title": "$  bundle install",
+                          "id": 91,
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          },
                           "ideas": {
-                            "2": {
-                              "title": "terminal $  bundle install",
-                              "id": 91,
+                            "1": {
+                              "title": "$  rails generate devise:install",
+                              "id": 93,
                               "attr": {
                                 "style": {
                                   "background": "#E0E0E0"
                                 }
-                              },
-                              "ideas": {
-                                "1": {
-                                  "title": "$  rails generate devise:install",
-                                  "id": 93,
-                                  "attr": {
-                                    "style": {
-                                      "background": "#E0E0E0"
-                                    }
-                                  }
-                                }
                               }
-                            }
-                          },
-                          "attr": {
-                            "style": {
-                              "background": "#E0E0E0"
                             }
                           }
                         }
@@ -1134,7 +1102,6 @@
                 }
               },
               "attr": {
-                "collapsed": true,
                 "style": {
                   "background": "#E0E0E0"
                 }
@@ -1392,13 +1359,30 @@
                     }
                   }
                 }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {
+                  "background": "#E0E0E0"
+                }
+              }
+            },
+            "8.75": {
+              "title": "3",
+              "id": 254,
+              "ideas": {
+                "1": {
+                  "title": "s'il y a eu un model contenant :name alors supprimer, idem dans views supprimer [model].name",
+                  "id": 255
+                }
               }
             }
           },
           "attr": {
             "style": {
               "background": "#E0E0E0"
-            }
+            },
+            "collapsed": true
           }
         },
         "4": {
@@ -1413,6 +1397,149 @@
                   "background": "#E0E0E0"
                 }
               }
+            }
+          }
+        },
+        "5": {
+          "title": "Simple_form",
+          "id": 256,
+          "ideas": {
+            "2": {
+              "title": "1",
+              "id": 265,
+              "ideas": {
+                "1": {
+                  "title": "installation",
+                  "id": 257,
+                  "ideas": {
+                    "2": {
+                      "title": "1.1",
+                      "id": 237,
+                      "ideas": {
+                        "1": {
+                          "title": "Gemfile",
+                          "id": 89,
+                          "ideas": {
+                            "1": {
+                              "title": "gem  'simple_form'",
+                              "id": 90,
+                              "ideas": {}
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "1.2",
+                      "ideas": {
+                        "1": {
+                          "title": "terminal",
+                          "attr": {
+                            "style": {
+                              "background": "#E0E0E0"
+                            }
+                          },
+                          "ideas": {
+                            "2": {
+                              "title": "$ bundle install",
+                              "id": 260,
+                              "attr": {
+                                "style": {
+                                  "background": "#E0E0E0"
+                                }
+                              },
+                              "ideas": {
+                                "3": {
+                                  "title": "1 des 2",
+                                  "id": 268,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "$  rails generate simple_form:install --bootstrap",
+                                      "attr": {
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      },
+                                      "id": 264
+                                    },
+                                    "2": {
+                                      "title": "$ rails generate simple_form:install --foundation",
+                                      "id": 267,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#E0E0E0"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "id": 262
+                        }
+                      },
+                      "id": 261,
+                      "attr": {
+                        "style": {
+                          "background": "#E0E0E0"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#E0E0E0"
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "2",
+              "id": 266,
+              "ideas": {
+                "1": {
+                  "title": "configuration",
+                  "id": 269,
+                  "ideas": {
+                    "1": {
+                      "title": "2.1",
+                      "id": 270,
+                      "ideas": {
+                        "1": {
+                          "title": "remplacer <%= form_for @user do |f| %> par <%= simple_form_for @user do |f| %>",
+                          "id": 271
+                        },
+                        "2": {
+                          "title": "remplacer <%= f.label :content %> par <%= f.input :content %>",
+                          "id": 273
+                        },
+                        "3": {
+                          "title": "bootstraper ou foundationner",
+                          "id": 274
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {
+              "background": "#E0E0E0"
             }
           }
         }
@@ -1439,16 +1566,6 @@
           "color": "#FF0000",
           "lineStyle": "dashed",
           "arrow": true
-        }
-      }
-    },
-    {
-      "ideaIdFrom": 90,
-      "ideaIdTo": 87,
-      "attr": {
-        "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
         }
       }
     }
